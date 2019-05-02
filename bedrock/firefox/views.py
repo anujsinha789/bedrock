@@ -594,6 +594,8 @@ def download_thanks(request):
                 template = 'firefox/new/newsletter/scene2-{}.html'.format(variant)
             else:
                 template = 'firefox/new/scene2.html'
+        elif experience == 'trailhead':
+            template = 'firefox/new/trailhead/thanks.html'
         else:
             template = 'firefox/new/scene2.html'
     else:
@@ -665,6 +667,8 @@ def new(request):
                     template = 'firefox/new/newsletter/scene1-{}.html'.format(variant)
                 else:
                     template = 'firefox/new/scene1.html'
+            elif experience == 'trailhead':
+                template = 'firefox/new/trailhead/download.html'
             else:
                 template = 'firefox/new/scene1.html'
         else:

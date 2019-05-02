@@ -233,6 +233,18 @@
     },
     {
       "files": [
+        "css/firefox/new/trailhead/download.scss"
+      ],
+      "name": "firefox_new_download"
+    },
+    {
+      "files": [
+        "css/firefox/new/trailhead/thanks.scss"
+      ],
+      "name": "firefox_new_thanks"
+    },
+    {
+      "files": [
         "css/base/mozilla-fxa-form.scss",
         "css/firefox/new/scene1.scss"
       ],
@@ -1058,6 +1070,13 @@
         "js/firefox/whatsnew/whatsnew-67.js"
       ],
       "name": "firefox_whatsnew_67"
+    },
+    {
+      "files": [
+        "protocol/js/protocol-modal.js",
+        "js/firefox/new/trailhead/download.js"
+      ],
+      "name": "firefox_new_download"
     },
     {
       "files": [
